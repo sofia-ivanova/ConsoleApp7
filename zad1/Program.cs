@@ -10,7 +10,6 @@
             Console.WriteLine($"The number {target} is at index {Search(array, target)}");
             Console.ReadKey();
         }
-
         static int Search(int[] array, int target)
         {
             for (int i = 0; i < array.Length; i++)
